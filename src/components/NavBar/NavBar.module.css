@@ -1,15 +1,43 @@
-.navBar{
- display: flex;
- background-color: rgb(5, 135, 51);
- width: 100%;
- height: 40px;
- margin-top: 0%;
- margin-left: 0%;
+.NavBar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(154, 77, 0);
+    width: 100%;
+    height: 20vh;
+    margin-top: 0%;
+    margin-left: 0%;
 }
-.namePage{
+
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.NavLink {
+    text-decoration: none;
+}
+
+.Title {
     color: aliceblue;
     font-size: 35px;
     font-family: 'Russo One', sans-serif;
     font-weight: bold;
-    
+    margin-left: 5vw;
+}
+
+.LinksChicosContainer {
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LinkChico {
+    color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
 }
