@@ -8,6 +8,9 @@ const NavBar =()=>{
                 <Link to='/home'>
                     <span className={style.namePage}>EL NORTE CULTIVA</span>
                 </Link>
+                <Link to="/">
+                    <button> Landing </button>
+                </Link>
             </div>
 
         </div>
