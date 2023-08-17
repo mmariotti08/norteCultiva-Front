@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import { Route, Routes, useLocation} from 'react-router-dom'
 import { Home, Landing, LandingTienda, PreguntasFrecuentes, ChatGPT } from "./views/indexViews"
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import './App.css'
 
 function App() {
