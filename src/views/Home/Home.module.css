@@ -1,5 +1,41 @@
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Tienda {
+    height: 100vh;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10vw;
+}
+
+.Boton {
+    border-radius: 30px;
+    height: 10vh;
+    width: 40vh;
+    border: none;
+    margin-top: 30px
+}
+
+.Asesoramiento {
+    height: 100vh;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 10vw;
 }
