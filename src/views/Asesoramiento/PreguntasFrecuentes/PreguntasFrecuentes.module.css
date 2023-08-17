@@ -1,3 +1,12 @@
+.bg{
+    display: flex;
+    background-image: url('../../../../public/wallhaven-4519j8_1920x1080.png');
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+
+}
+
 .container {
     color: white;
 }
