@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    color: rgb(221, 110, 0);
 }
 
 .Tienda {
@@ -20,6 +21,7 @@
     align-items: flex-start;
     justify-content: center;
     padding-left: 10vw;
+    color: white;
 }
 
 .Boton {
@@ -27,7 +29,8 @@
     height: 10vh;
     width: 40vh;
     border: none;
-    margin-top: 30px
+    margin-top: 30px;
+    background-color: rgb(221, 110, 0);;
 }
 
 .Asesoramiento {
@@ -38,4 +41,5 @@
     align-items: flex-end;
     justify-content: center;
     padding-right: 10vw;
+    color: white;
 }
