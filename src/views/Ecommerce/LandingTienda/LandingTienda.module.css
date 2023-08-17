@@ -1,0 +1,24 @@
+.imagenPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgb(45, 45, 45);
+    height: 60vh;
+}
+
+.BotonesNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    height: 20vh;
+}
+
+.Boton {
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(150, 150, 150);
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+}
