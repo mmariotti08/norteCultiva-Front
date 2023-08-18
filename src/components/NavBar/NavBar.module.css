@@ -7,6 +7,8 @@
     height: 20vh;
     margin-top: 0%;
     margin-left: 0%;
+    scroll-snap-align: start;
+    
 }
 
 .Container {
@@ -22,8 +24,8 @@
 
 .Title {
     color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
-    font-family: 'Russo One', sans-serif;
     font-weight: bold;
     margin-left: 5vw;
 }

@@ -1,3 +1,5 @@
 :root{
     background-color: rgb(0, 0, 0);
+    scroll-snap-type: y mandatory;
+    font-family: 'Poppins', sans-serif;
 }
