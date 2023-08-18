@@ -14,22 +14,24 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.669);
+    background-color: rgba(0, 0, 0, 0.684);
     
 }
 
 .acordion{
-    width: 500px;
+    width: 1000px;
+    
 }
 
 .item{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.793);
     margin-bottom: 5px;
     padding: 10px 20px;
+    border-radius: 8px; 
 }
 
 .title{
-    color: red;
+    color:  rgb(211, 110, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,14 +39,14 @@
 }
 
 .content{
-    color: orange;
+    color:  rgb(255, 255, 255);
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
 .contentShow{
-    color: orange;
+    color:  rgb(255, 255, 255);
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
