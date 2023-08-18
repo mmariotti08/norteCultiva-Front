@@ -30,6 +30,11 @@ const PreguntasFrecuentes = () => {
                     </div>
                 ))}
             </div>
+            <div>
+                <Link to='/chat'>
+                    <button>Consulta</button>
+                </Link>
+            </div>
         </div>
         </div>
     );
