@@ -4,7 +4,7 @@ import style from "./LandingTienda.module.css"
 
 const LandingTienda = () => {
     return (
-        <div>
+        <div className={style.LContainer}>
             <div className={style.imagenPrincipal}>
                 <h1>Imagen principal / producto destacado / publicidad</h1>
             </div>
@@ -21,6 +21,9 @@ const LandingTienda = () => {
                 <Link to="">
                     <button className={style.Boton}> Materia Prima </button> 
                 </Link>
+            </div>
+            <div className={style.Productos}>
+                <h1> Productos </h1>
             </div>
             
         </div>
