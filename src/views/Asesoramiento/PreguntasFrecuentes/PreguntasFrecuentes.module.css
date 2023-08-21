@@ -5,25 +5,25 @@
     background-position: center;
     justify-content: center;
     width: 100%;
-    height: 150vh;
-    scroll-snap-align:end;
+    height: 110vh;
+   
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150vh;
+    height: 110vh;
     background-color: rgba(0, 0, 0, 0.684);
-    scroll-snap-align: end;
+    
+   
 
 }
 
 .acordion{
     width: 1000px;
-    
+    margin-top: 70px;
 }
 
 .item{
@@ -53,5 +53,31 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.conBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 110, 0);
+    margin-top: 50px;
+    width: 305px;
+    height: 85px;
+
+}
+
+.conBut button{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 80px;
+    color:  rgb(211, 110, 0);
+    font-size: 35px;
+    border: 16px;
+   
+}
+
+.arrow{
+    display: flex;
+   margin-top: 50px;
 }
 
