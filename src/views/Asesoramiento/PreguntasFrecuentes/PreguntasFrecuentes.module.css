@@ -5,7 +5,8 @@
     background-position: center;
     justify-content: center;
     width: 100%;
-    scroll-snap-align: start;
+    height: 150vh;
+    scroll-snap-align:end;
 }
 
 .container{
@@ -14,9 +15,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-color: rgba(0, 0, 0, 0.684);
-    
+    scroll-snap-align: end;
+
 }
 
 .acordion{
