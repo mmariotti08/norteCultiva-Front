@@ -18,7 +18,10 @@ const PreguntasFrecuentes = () => {
 
     return (
         <div className={style.bg}>
-            <div className={style.container}>
+             <div className={style.container}>
+                <div className={style.backBut}>
+                    <Link to='/home'><img src="/public/icons8-izquierda-en-círculo-2-50.png"/></Link>
+                </div>
                 <div className={style.acordion}>
                     {data.map((item, i) => (
                         <div className={style.item} key={i}>
@@ -44,9 +47,9 @@ const PreguntasFrecuentes = () => {
                         </div>
                     ))}
                 </div>
-                <div>
+                <div className={style.conBut}>
                     <Link to='/chat'>
-                        <button>Consulta</button>
+                        <button >CONSULTA</button>
                     </Link>
                 </div>
             </div>
