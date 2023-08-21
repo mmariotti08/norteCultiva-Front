@@ -1,6 +1,6 @@
 .bg{
     display: flex;
-    background-image: url('../../../../public/IMG_3731.JPG');
+    background-image: url('/public/IMG_3731.JPG');
     background-size: cover;
     background-position: center;
     justify-content: center;
