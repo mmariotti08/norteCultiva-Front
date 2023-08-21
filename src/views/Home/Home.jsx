@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import style from "./Home.module.css";
+import { useEffect } from "react";
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
+    
     return (
         <div className={style.container}>
             <div className={style.Bienvenida}>

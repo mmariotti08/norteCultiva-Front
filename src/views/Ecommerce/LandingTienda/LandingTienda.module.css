@@ -1,15 +1,44 @@
-.LContainer {
-    scroll-snap-align: start;
+/*.LContainer {
+    background-image: url("/public/wallhaven-4519j8_1920x1080.png");
+    background-position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}*/
+
+.LCsombra {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
 }
 
 .imagenPrincipal {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px solid rgb(7, 7, 7);
+    /*border: 4px solid rgb(7, 7, 7);*/
+    position: relative;
     height: 100vh;
+    width: 98.79vw;
+    overflow: hidden;
     color: aliceblue;
-    margin-top: 10vh;
+    scroll-snap-align: center;
+}
+
+.imagenPrincipal h1 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .BotonesNav {
@@ -18,6 +47,7 @@
     align-items: center;
     margin-top: 20vh;
     height: 25vh;
+    scroll-snap-align: center;
 }
  
 .Boton {
@@ -30,10 +60,11 @@
 }
 
 .Productos {
-    border: 4px solid rgb(7, 7, 7);
+    /*border: 4px solid rgb(7, 7, 7);*/
     height: 100vh;
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: start;
 }

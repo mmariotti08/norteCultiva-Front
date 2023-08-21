@@ -2,12 +2,15 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: rgb(221, 110, 0);
-    width: 100%;
+    position: fixed;
+    z-index: 99;
+    /*background-color: rgb(221, 110, 0);*/
+    width: 80%;
     height: 20vh;
     margin-top: 0%;
-    margin-left: 0%;
+    margin-left: 10%;
     scroll-snap-align: start;
+    border-bottom: 1px solid aliceblue;
     
 }
 
@@ -23,7 +26,7 @@
 }
 
 .Title {
-    color: rgb(0, 0, 0);
+    color: aliceblue;
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -39,7 +42,7 @@
 }
 
 .LinkChico {
-    color: rgb(0, 0, 0);
+    color: aliceblue;
     font-family: 'Russo One', sans-serif;
     font-weight: bold;
 }
