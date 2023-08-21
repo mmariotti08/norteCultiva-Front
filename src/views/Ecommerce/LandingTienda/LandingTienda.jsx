@@ -13,20 +13,20 @@ const LandingTienda = () => {
         <div className={style.LTsombra}>
             <div className={style.imagenPrincipal}>
                 <img className={style.background} src="/public/IMG_3731.JPG"/>
-                <h1>Bienvenido a la tienda </h1>
+                <h1>Tienda virtual </h1>
             </div>
             <div className={style.BotonesNav}>
                 <Link to="">
-                    <button className={style.Boton}> Parafernalia </button>
+                    <button className={style.Boton}> PARAFERNALIA </button>
                 </Link>
                 <Link to="">
-                    <button className={style.Boton}> Jardineria </button>
+                    <button className={style.Boton}> JARDINERIA </button>
                 </Link>
                 <Link to="">
-                    <button className={style.Boton}> Semillas </button>
+                    <button className={style.Boton}> SEMILLAS </button>
                 </Link>
                 <Link to="">
-                    <button className={style.Boton}> Materia Prima </button> 
+                    <button className={style.Boton}> MATERIA PRIMA </button> 
                 </Link>
             </div>
             <div className={style.Productos}>
