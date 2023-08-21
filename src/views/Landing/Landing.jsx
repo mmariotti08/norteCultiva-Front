@@ -11,6 +11,7 @@ const Landing = () => {
   
   return (
     <div className={styles.container}>
+      <img src="/public/IMG_3731.JPG" className={styles.background}/>
       <form onSubmit={handleSubmit}>
         <button className={styles.button}>GO HOMEPAGE</button>
       </form>

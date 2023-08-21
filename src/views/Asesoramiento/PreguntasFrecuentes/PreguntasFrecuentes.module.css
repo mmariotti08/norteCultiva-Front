@@ -1,6 +1,6 @@
 .bg{
     display: flex;
-    background-image: url('../../../../public/wallhaven-4519j8_1920x1080.png');
+    background-image: url('/public/IMG_3731.JPG');
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -16,6 +16,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.684);
+    scroll-snap-align: center;
     
    
 

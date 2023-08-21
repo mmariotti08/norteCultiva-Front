@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div className={style.container}>
             <div className={style.Bienvenida}>
+                <img src="./public/IMG_3731.JPG" className={style.background}></img>
                 <h1> Binevenido a El Norte Cultiva </h1>
             </div>
             <div className={style.Tienda}>
