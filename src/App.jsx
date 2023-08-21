@@ -9,7 +9,7 @@ function App() {
   const {pathname}=useLocation();
   return (
    <>
-   {pathname !== "/PreguntasFrecuentes" && <NavBar/>}
+   {pathname !== "/PreguntasFrecuentes" && pathname !=="/" && <NavBar/>}
     <Routes>
       <Route exact path="/" element={<Landing/>} /> 
       <Route path='/home' element={<Home/>}/>
