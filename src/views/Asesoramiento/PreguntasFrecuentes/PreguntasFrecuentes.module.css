@@ -12,11 +12,10 @@
 .container{
     display: flex;
     flex-direction: column;
-    
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.684);
-    scroll-snap-align: center;
+   
     
    
 
@@ -67,6 +66,7 @@
     width: 305px;
     height: 85px;
     margin-left: 43%;
+    margin-bottom: 50px;
 }
 
 .conBut button{

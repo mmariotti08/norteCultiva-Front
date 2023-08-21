@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "./PreguntasFrecuentes.module.css";
-import { useState } from "react";
+import { useState, useEffect} from "react";
 
 
 
 const PreguntasFrecuentes = () => {
+
+    useEffect(()=>{
+        window.scroll(0,0)
+    },[])
     const [selector, setSelector] = useState(null);
 
     const toggle = (i) => {
