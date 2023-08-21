@@ -9,7 +9,7 @@
     height: 20vh;
     margin-top: 0%;
     margin-left: 10%;
-   
+    scroll-snap-align: start;
     border-bottom: 1px solid aliceblue;
     
 }
