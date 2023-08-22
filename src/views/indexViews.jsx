@@ -4,6 +4,7 @@ import LandingTienda from "./Ecommerce/LandingTienda/LandingTienda";
 import PreguntasFrecuentes from "./Asesoramiento/PreguntasFrecuentes/PreguntasFrecuentes";
 import ChatGPT from "./Asesoramiento/chatGPT/chatGPT";
 import SelectArea from "./Asesoramiento/SelectArea/SelectArea";
+import Contact from './Contact/Contact';
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     LandingTienda,
     PreguntasFrecuentes,
     ChatGPT,
-    SelectArea
+    SelectArea,
+    Contact
 }
