@@ -10,8 +10,13 @@
     margin-top: 0%;
     margin-left: 10%;
     
-    border-bottom: 1px solid aliceblue;
     
+}
+
+.NavBarFondo {
+    background-color: aliceblue;
+    width: 100%;
+    margin-left: 0;
 }
 
 .Container {

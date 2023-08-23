@@ -3,8 +3,8 @@ import style from "./CarrouselTienda.module.css"
 
 const CarrouselTienda = () => {
     return (
-        <div className={style.imagenPrincipal}>
-            <h1>Tienda virtual </h1>
+        <div className={style.CarrouselContainer}>
+            <div className={style.Carrousel}> fotos </div>
         </div>
     )
 }
