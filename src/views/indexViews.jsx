@@ -5,6 +5,7 @@ import PreguntasFrecuentes from "./Asesoramiento/PreguntasFrecuentes/PreguntasFr
 import ChatGPT from "./Asesoramiento/chatGPT/chatGPT";
 import SelectArea from "./Asesoramiento/SelectArea/SelectArea";
 import Contact from './Contact/Contact';
+import AboutUs from "./AboutUs/AboutUs";
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     PreguntasFrecuentes,
     ChatGPT,
     SelectArea,
-    Contact
+    Contact,
+    AboutUs
 }
