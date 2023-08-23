@@ -16,7 +16,7 @@ const NavBar = () => {
                     <Link to="/home" className={style.NavLink}>
                         <span className={style.LinkChico}> Diccionario </span>
                     </Link>
-                    <Link to="/home" className={style.NavLink}>
+                    <Link to="/aboutus" className={style.NavLink}>
                         <span className={style.LinkChico}> Sobre nosotros </span>
                     </Link>
                     <Link to="/contact" className={style.NavLink}>
