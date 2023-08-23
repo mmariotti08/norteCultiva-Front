@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
+import { useEffect, useState } from "react";
 
 const NavBar = () => {
+
+
+
     return(
         <div className={style.NavBar}>
             <div className={style.Container}>

@@ -1,4 +1,4 @@
-.imagenPrincipal {
+.CarrouselContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,10 +9,12 @@
     overflow: hidden;
     color: aliceblue;
     scroll-snap-align: center;
+    padding-bottom: 10vh;
 }
 
-.imagenPrincipal h1 {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+.Carrousel {
+    border: 2px solid black;
+    width: 80%;
+    height: 60vh;
+    margin-top: 20vh;
 }
