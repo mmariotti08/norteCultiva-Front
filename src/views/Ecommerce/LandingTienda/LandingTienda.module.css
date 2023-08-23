@@ -4,25 +4,6 @@
     background-color: rgba(0, 0, 0, 0.76);
 }
 
-.imagenPrincipal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*border: 4px solid rgb(7, 7, 7);*/
-    position: relative;
-    height: 100vh;
-    width: 98.79vw;
-    overflow: hidden;
-    color: aliceblue;
-    scroll-snap-align: center;
-}
-
-.imagenPrincipal h1 {
-    font-size: 4rem;
-    color: white;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
-}
-
 .background {
     position: fixed;
     top: 0;
@@ -31,41 +12,4 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-}
-
-.BotonesNav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20vh;
-    height: 25vh;
-    scroll-snap-align: center;
-}
- 
-.Boton {
-    height: 13vh;
-    width: 20vw;
-    background-color: rgba(221, 111, 0, 0.8);
-    font-weight: 700;
-    border-radius: 30px;
-    border: none;
-    font-size: 1.5rem;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-    color: aliceblue;
-    transition: .5s;
-}
-
-.Boton:hover {
-    transition: .5s;
-    transform: translateY(-10px);
-}
-
-.Productos {
-    /*border: 4px solid rgb(7, 7, 7);*/
-    height: 100vh;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
 }
