@@ -25,7 +25,7 @@ const NavBar = () => {
     return(
         <div className={`${style.NavBar} ${visible ? style.NavBarVisible : style.NavBarHidden}`}>
             <div className={style.Container}>
-                <Link to='/home' className={style.NavLink}>
+                <Link to='/' className={style.NavLink}>
                     <span className={style.Title}>EL NORTE CULTIVA</span>
                 </Link>
                 <div className={style.LinksChicosContainer}>
