@@ -7,14 +7,49 @@
     height: 100vh;
     width: 98.79vw;
     overflow: hidden;
-    color: aliceblue;
-    scroll-snap-align: center;
-    padding-bottom: 10vh;
 }
 
 .Carrousel {
-    border: 2px solid black;
-    width: 80%;
-    height: 60vh;
-    margin-top: 20vh;
+    width: 100%;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-left: 0.5vh;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.Carrousel ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 500%;
+}
+
+@keyframes slide {
+    0%, 100% { transform: translateX(0); }
+    20%, 120% { transform: translateX(-20%); }
+    40%, 140% { transform: translateX(-40%); }
+    60%, 160% { transform: translateX(-60%); }
+    80%, 180% { transform: translateX(-80%); }
+}
+
+.Carrousel li{
+    list-style: none;
+    width: 100%;
+}
+
+.imagen1, 
+.imagen2, 
+.imagen3, 
+.imagen4, 
+.imagen5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen1 {
+    object-position: center -100vh;
 }

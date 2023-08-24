@@ -1,22 +1,20 @@
 .BotonesNav {
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20vh;
     height: 25vh;
-    scroll-snap-align: center;
 }
  
 .Boton {
     height: 13vh;
     width: 20vw;
-    background-color: rgba(221, 111, 0, 0.8);
+    background-color: rgb(221, 111, 0);
     font-weight: 700;
     border-radius: 30px;
     border: none;
     font-size: 1.5rem;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     transition: .5s;
 }
 

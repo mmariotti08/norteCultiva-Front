@@ -1,18 +1,16 @@
 .Productos {
-    margin-top: 18vh;
     height: 100%;
     color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    scroll-snap-type: mandatory;
 }
 
 .jardineria {
-    border: 2px solid white;
+    border: 2px solid rgba(223, 112, 0, 0.091);
     height: calc(100vh - 20vh);
-    width: 80%;
+    width: 95%;
     margin-top: 20vh;
     display: flex;
     align-items: center;
@@ -20,9 +18,9 @@
 }
 
 .parafernalia {
-    border: 2px solid white;
+    border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 80%;
+    width: 95%;
     margin-top: 20vh;
     display: flex;
     align-items: center;
@@ -30,9 +28,9 @@
 }
 
 .semillas {
-    border: 2px solid white;
+    border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 80%;
+    width: 95%;
     margin-top: 20vh;
     display: flex;
     align-items: center;
@@ -40,12 +38,11 @@
 }
 
 .materiaPrima {
-    border: 2px solid white;
+    border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 80%;
+    width: 95%;
     margin-top: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    scroll-snap-align: end;
 }
