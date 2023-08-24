@@ -13,10 +13,16 @@
     
 }
 
-.NavBarFondo {
-    background-color: aliceblue;
-    width: 100%;
-    margin-left: 0;
+.NavBarVisible {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.NavBarHidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .Container {
@@ -35,11 +41,11 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
     font-weight: bold;
-    margin-left: 5vw;
+    margin-left: 0;
 }
 
 .LinksChicosContainer {
-    width: 50%;
+    width: 55%;
     height: 15vh;
     display: flex;
     justify-content: space-around;
@@ -66,5 +72,18 @@
 .LinkTienda {
     color: rgb(0, 0, 0);
     font-family: 'Russo One', sans-serif;
-    font-weight: bold;
+
+}
+
+.NavAsesoramiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(221, 110, 0);
+    font-size: 25px;
+    border-radius: 2px;
+    
 }
