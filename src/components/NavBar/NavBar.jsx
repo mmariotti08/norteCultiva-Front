@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
 import { useEffect, useState } from "react";
 
-const NavBar = () => {
+const NavBar = ({onLinkClick}) => {
 
 
 
@@ -24,6 +24,9 @@ const NavBar = () => {
                     </Link>
                     <Link to="/LandingTienda" className={style.NavTienda}>
                         <span className={style.LinkTienda}> Tienda </span>
+                    </Link>
+                    <Link to="/login" className={style.NavLink} onClick={onLinkClick}>
+                        <span className={style.LinkChico}> LogIn </span>
                     </Link>
                 </div>
             </div>
