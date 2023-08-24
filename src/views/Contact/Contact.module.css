@@ -104,3 +104,87 @@
     margin-top: 20px;
     margin-left: 8px;
 }
+@media (max-width: 767px){
+    .bgg {
+        background-image: url('../../../public/IMG_3731.JPG');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh; /* Cambiado a altura del viewport */
+      }
+      
+      .container {
+        background-color: rgba(0, 0, 0, 0.702);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente en pantallas más pequeñas */
+        align-items: center; /* Centra horizontalmente */
+      }
+      
+      .contForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.699);
+        width: 80%; /* Cambiado a ancho relativo */
+        margin: 20px auto; /* Centrado y se agrega un margen */
+      }
+      
+      .fform {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        padding: 20px; /* Agregado espaciado */
+      }
+      
+      .fform input,
+      .fform textarea {
+        background-color: rgba(240, 248, 255, 0);
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 18px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 10px; /* Agrega espaciado entre elementos */
+      }
+      
+      .fform textarea {
+        height: 150px; /* Altura reducida para el textarea en pantallas más pequeñas */
+      }
+      
+      .fform button {
+        background-color: rgb(221, 110, 0);
+        width: 150px;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        margin-top: 10px; /* Agrega espaciado en la parte superior */
+      }
+      
+      .msg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto; /* Centrado y se agrega un margen */
+        text-align: center; /* Centra el texto */
+        padding: 20px; /* Agregado espaciado */
+      }
+      
+      .msg h1 {
+        font-size: 30px; /* Tamaño de fuente reducido para pantallas más pequeñas */
+        padding-bottom: 0;
+        margin-bottom: 5px; /* Agrega espaciado */
+      }
+      
+      .msg h3 {
+        font-size: 18px; /* Tamaño de fuente reducido para pantallas más pequeñas */
+        margin-top: 5px; /* Agrega espaciado */
+      }
+}

@@ -47,7 +47,24 @@
 }
 
 .LinkChico {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+.NavTienda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(221, 110, 0);
+    font-size: 25px;
+    border-radius: 2px;
+    
+}   
+.LinkTienda {
+    color: rgb(0, 0, 0);
     font-family: 'Russo One', sans-serif;
     font-weight: bold;
 }

@@ -61,11 +61,19 @@
 }
 
 .Boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 30px;
     height: 10vh;
-    width: 40vh;
+    width: 20vh;
     border: none;
     margin-top: 30px;
     background-color: rgb(221, 110, 0);
     font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.Boton svg{
+    width: 40px;
 }

@@ -1,7 +1,11 @@
-import React from 'react'
 import style from './AboutUs.module.css'
+import { useEffect, React } from 'react'
 
 function AboutUs() {
+
+     useEffect(()=>{
+        window.scroll(0,0)
+     },[])
   return (
     <div className={style.bg}>
         <div className={style.curtain}>
