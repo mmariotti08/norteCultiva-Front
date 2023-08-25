@@ -6,6 +6,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.76);
+    z-index: 0;
 }
 
 
@@ -18,6 +19,7 @@
     height: 80vh;
     width: 89%;
     scroll-snap-align: center;
+    z-index: 11;
 }
 
 .Bienvenida {
@@ -77,6 +79,11 @@
     color: rgb(0, 0, 0);
     
 }
+
+.Boton:hover {
+    cursor: pointer;
+}
+
 .Boton svg{
     width: 40px;
 }

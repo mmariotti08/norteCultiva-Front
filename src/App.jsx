@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import { Home, LandingTienda, PreguntasFrecuentes, ChatGPT, SelectArea, Contact, AboutUs} from "./views/indexViews"
-import NavBar from './components/NavBar/NavBar';
+import { Nav, LeftNav, RightNav } from './components/indexComponents';
 import './App.css'
 
 
@@ -8,7 +8,9 @@ import './App.css'
 function App() {
   return (
    <>
-    <NavBar/>
+    <LeftNav/>
+    <Nav/>
+    <RightNav/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/LandingTienda' element={<LandingTienda/>}/>

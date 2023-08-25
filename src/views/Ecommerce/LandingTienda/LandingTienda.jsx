@@ -14,7 +14,7 @@ const LandingTienda = () => {
             <img className={style.background} src="/IMG_3731.JPG"/>
             <CarrouselTienda/>
             <BotonesNav/>
-            <Products/>
+            <Products/>    
         </div>
     )
 }
