@@ -1,0 +1,10 @@
+.FooterConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-top: 2px solid aliceblue;
+    height: 35vh;
+    width: 80%;
+    z-index: 99;
+}

@@ -1,14 +1,17 @@
 .BotonesNav {
     margin-top: 0;
+    margin-left:10%;
+    margin-left: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 25vh;
+    width: 80%;
 }
  
 .Boton {
-    height: 13vh;
-    width: 20vw;
+    height: 10vh;
+    width: 15vw;
     background-color: rgb(221, 111, 0);
     font-weight: 700;
     border-radius: 30px;

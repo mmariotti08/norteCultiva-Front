@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .jardineria {
     border: 2px solid rgba(223, 112, 0, 0.091);
     height: calc(100vh - 20vh);
-    width: 95%;
-    margin-top: 20vh;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +19,7 @@
 .parafernalia {
     border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,8 +28,7 @@
 .semillas {
     border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,8 +37,8 @@
 .materiaPrima {
     border: 2px solid rgba(223, 112, 0, 0.091);;
     height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
+    width: 80%;
+    margin-bottom: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
