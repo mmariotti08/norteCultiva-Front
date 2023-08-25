@@ -1,0 +1,8 @@
+.parafernalia {
+    border: 2px solid rgba(223, 112, 0, 0.091);;
+    height: 75vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

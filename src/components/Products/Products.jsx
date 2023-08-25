@@ -1,13 +1,17 @@
 import React from "react";
 import style from "./Products.module.css"
+import Jardineria from "./Jardineria/Jardineria"
+import Parafernalia from "./Parafernalia/Parafernalia"
+import Semillas from "./Semillas/Semillas"
+import MateriaPrima from "./MateriaPrima/MateriaPrima"
 
 const Products = () => {
     return (
         <div className={style.Productos}>
-            <div className={style.jardineria}> Jardineria </div>
-            <div className={style.parafernalia}> Parafernalia </div>
-            <div className={style.semillas}> Semillas </div>
-            <div className={style.materiaPrima}> Materia Prima </div>
+            <Jardineria/>
+            <Parafernalia/>
+            <Semillas/>
+            <MateriaPrima/>
         </div>
     )
 }
