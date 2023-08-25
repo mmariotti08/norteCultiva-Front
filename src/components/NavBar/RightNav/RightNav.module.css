@@ -8,6 +8,8 @@
     position: fixed;
     right: 0;
     z-index: 99;
+    top: 0;
+    right: 0;
 }
 
 .rightNavVisible {

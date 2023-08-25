@@ -4,6 +4,7 @@ import RightNav from "./NavBar/RightNav/RightNav"
 import BotonesNav from "./BotonesNav/BotonesNav";
 import Products from "./Products/Products";
 import CarrouselTienda from "./CarrouselTienda/CarrouselTienda";
+import Footer from "./Footer/Footer";
 
 export {
     Nav,
@@ -11,5 +12,6 @@ export {
     RightNav,
     BotonesNav,
     Products,
-    CarrouselTienda
+    CarrouselTienda,
+    Footer
 }

@@ -1,4 +1,12 @@
 .container {
-    margin-top: 5rem;
-    border: 2px solid red;
+    height: 100%;
+}
+
+.div {
+    width: 98.9vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }

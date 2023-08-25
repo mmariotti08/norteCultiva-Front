@@ -1,16 +1,13 @@
 .bg{
-    background-image: url('../../../public/IMG_3731.JPG');
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 100%;
+    margin-bottom: 15vh;
 }
 
 .curtain{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    background-color: rgba(0, 0, 0, 0.701);
     width: 100%;
     height: 100%;
     
