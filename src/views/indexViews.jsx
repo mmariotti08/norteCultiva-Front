@@ -5,6 +5,10 @@ import ChatGPT from "./Asesoramiento/chatGPT/chatGPT";
 import SelectArea from "./Asesoramiento/SelectArea/SelectArea";
 import Contact from './Contact/Contact';
 import AboutUs from "./AboutUs/AboutUs";
+import Jardineria from "./Ecommerce/Jardineria/Jardineria";
+import Parafernalia from "./Ecommerce/Parafernalia/Parafernalia";
+import MateriaPrima from "./Ecommerce/MateriaPrima/MateriaPrima";
+import Semillas from "./Ecommerce/Semillas/Semillas";
 
 export {
     Home,
@@ -13,5 +17,9 @@ export {
     ChatGPT,
     SelectArea,
     Contact,
-    AboutUs
+    AboutUs,
+    Jardineria,
+    Parafernalia,
+    MateriaPrima,
+    Semillas
 }

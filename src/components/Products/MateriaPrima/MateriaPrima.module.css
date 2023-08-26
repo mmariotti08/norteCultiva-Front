@@ -15,6 +15,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto1:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
 }
 
 .producto4 {
@@ -25,6 +32,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto4:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
 }
 
 .producto {
@@ -34,4 +48,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
 }
