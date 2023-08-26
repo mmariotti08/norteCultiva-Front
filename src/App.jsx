@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { Home, LandingTienda, PreguntasFrecuentes, ChatGPT, SelectArea, Contact, AboutUs} from "./views/indexViews"
+import { Home, LandingTienda, PreguntasFrecuentes, ChatGPT, SelectArea, Contact, AboutUs, Jardineria, Parafernalia, MateriaPrima, Semillas} from "./views/indexViews"
 import { Nav, LeftNav, RightNav, Footer } from './components/indexComponents';
 import './App.css'
 
@@ -20,6 +20,10 @@ function App() {
         <Route path='/selectArea' element={<SelectArea/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
+        <Route path='/Jardineria' element={<Jardineria/>}/>
+        <Route path='/Parafernalia' element={<Parafernalia/>}/>
+        <Route path='/MateriaPrima' element={<MateriaPrima/>}/>
+        <Route path='/Semillas' element={<Semillas/>}/>
       </Routes>
       <Footer/>
    </div>
