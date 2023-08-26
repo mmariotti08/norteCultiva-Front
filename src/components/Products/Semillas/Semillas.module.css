@@ -1,0 +1,18 @@
+.semillas {
+    height: 80vh;
+    width: 80%;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.producto {
+    border: 2px solid rgba(223, 112, 0, 0.5);
+    border-radius: 25px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
