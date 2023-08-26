@@ -1,0 +1,12 @@
+.container {
+    height: 100%;
+}
+
+.div {
+    width: 98.9vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

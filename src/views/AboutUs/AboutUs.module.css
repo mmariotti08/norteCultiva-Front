@@ -1,0 +1,92 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15vh;
+}
+
+.curtain{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    height: 100%;
+    
+}
+.divOne{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 25vh;
+    
+}
+.textOne{
+    color: aliceblue;
+    width: 500px;
+    
+  
+}
+.textOne span{
+    font-size: 20px;
+}
+.textOne h1{
+    font-size: 50px;
+    color: rgb(255, 140, 0);
+    
+}
+.imgOne{
+    margin-top: 80px;
+   
+    border: 2px solid aliceblue;
+  
+    
+   
+}
+.imgOne img{
+    width: 550px;
+    height: 400px;
+    
+}
+.divTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:300px;
+    
+}
+.textTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 70%;
+}
+.textTwo span{
+    font-size: 20px;
+}
+.divTree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.textTree{
+    color: white;
+    width: 700px;
+    font-size: 20px;
+    margin-left: 22px;
+    margin-top: -140px;
+}
+.imgTree{
+    border: 2px solid white;
+    margin-left: -150px;
+}
+.imgTree img{
+    width: 550px;
+    height: 400px;
+    
+}

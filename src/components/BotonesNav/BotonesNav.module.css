@@ -1,0 +1,26 @@
+.BotonesNav {
+    margin-top: 0;
+    margin-left:10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    width: 80%;
+}
+ 
+.Boton {
+    height: 8vh;
+    width: 12vw;
+    background-color: rgb(221, 111, 0);
+    font-weight: 350;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.Boton:hover {
+    transition: .5s;
+    transform: translateY(-10px);
+}
