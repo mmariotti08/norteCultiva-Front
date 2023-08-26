@@ -10,7 +10,7 @@ const Jardineria = () => {
       <div className={style.producto}> Producto 4 </div>
       <div className={style.producto}> Producto 5 </div>
       <div className={style.producto6}> Producto 6 </div>
-    </div>
+    </div>    
   )
 }
 
