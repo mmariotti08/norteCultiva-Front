@@ -8,21 +8,41 @@
 
 .curtain{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.701);
     width: 100%;
     height: 100%;
     
 }
-
-.cont{
+.bienv{
+    color: aliceblue;
+    margin-left: 200px;
+    margin-bottom: 250px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bienv h3{
+   
+    font-size: 60px;
+}
+.elnort{
+    color: rgb(255, 110, 0);
+}
+.elnort img{
+    width: 100px;
+    height: 120px;
     
-    display: flex;  
-    width: 400px;
+}
+.cont{
+    display: flex;
+     
+    width: 500px;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.785);
+    margin-top: 100px;
+    margin-right: 100px;
+    background-color: rgba(184, 184, 184, 0.434);
 }
 
 .log{
@@ -59,10 +79,10 @@
 
 .welcome h2{
  
- color: rgb(255, 110, 0);
+ color: rgb(0, 0, 0);
  font-weight: bold;
  font-size: 30px;
- margin-top: -80px;
+ margin-top: -20px;
  margin-bottom: -80px;
 }
 
@@ -75,7 +95,19 @@
 }
 
 .welcome h3{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
-    margin-top: -80px;
+    margin-top: -10px;
+}
+
+.welcome button{
+    background-color: rgb(255, 110, 0);
+    color: black;
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 6px 6px 10px black;
+    border: 0;
+    padding: 0;
 }

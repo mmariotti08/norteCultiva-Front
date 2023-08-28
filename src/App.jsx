@@ -20,7 +20,7 @@ function App() {
   const {pathname}=useLocation();
   return (
    <>
-   {pathname !=="/" && pathname !== '/login' && <NavBar  onLinkClick={handleModalOpen} />}
+   {pathname !=="/"  && <NavBar  onLinkClick={handleModalOpen} />}
     <Routes>
       <Route exact path="/" element={<Landing/>} /> 
       <Route path='/home' element={<Home/>}/>

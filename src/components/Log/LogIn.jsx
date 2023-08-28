@@ -35,6 +35,11 @@ const LogIn = ({isOpen, onClose, }) => {
     return (
         <div className={style.bg}>
             <div className={style.curtain}>
+                <div className={style.bienv}>
+                    <h1  className={style.elnort}> EL NORTE CULTIVA</h1>
+                    <h3>Bienvenido!</h3>
+                    
+                </div>
                 <div className={style.cont}>
                     {!user ? ( 
                         <div className={style.log}>
@@ -54,7 +59,7 @@ const LogIn = ({isOpen, onClose, }) => {
                             <h2>El Norte Cultiva</h2>
                             <img src={user.imageUrl} alt='' />
                             <h3>Bienvenido {user.name}</h3>
-                            <button onClick={onClose}>Cerrar</button>
+                            <button onClick={onClose}>Volver</button>
                         </div>
                     )}
                 </div>
