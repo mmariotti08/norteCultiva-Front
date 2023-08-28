@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
 import { useEffect, useState } from "react";
 
-const NavBar = () => {
+const NavBar = ({onLinkClick}) => {
     const [ prevScrollPos, setPrevScrollPos ] = useState(0);
     const [ visible, setVisible ] = useState(true);
 
@@ -40,6 +40,9 @@ const NavBar = () => {
                     </Link>
                     <Link to="/PreguntasFrecuentes" className={style.NavAsesoramiento}>
                         <span className={style.LinkTienda}> Asesoramiento </span>
+                    </Link>
+                    <Link to="/login" className={style.NavLink} onClick={onLinkClick}>
+                        <span className={style.LinkChico}> LogIn </span>
                     </Link>
                 </div>
             </div>
