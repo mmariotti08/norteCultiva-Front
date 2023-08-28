@@ -1,0 +1,59 @@
+
+.jardineria {
+    height: 80vh;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.producto1 {
+    grid-column: 1 / 3;
+    border: 2px solid rgba(223, 112, 0, 0.5);
+    border-radius: 25px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto1:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.producto6 {
+    grid-column: 3 / 5;
+    border: 2px solid rgba(223, 112, 0, 0.5);
+    border-radius: 25px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto6:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.producto {
+    border: 2px solid rgba(223, 112, 0, 0.5);
+    border-radius: 25px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.889);
+}
+
+.producto:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}

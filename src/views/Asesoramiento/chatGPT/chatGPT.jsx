@@ -3,8 +3,10 @@ import style from "./chatGPT.module.css";
 
 const chatGPT = () => {
     return (
-        <div>
-            <h1 className={style.container}> Hola soy chatGPT </h1>
+        <div className={style.container}>
+            <div className={style.div}> 
+                <h1>Hola soy chatGPT</h1>
+            </div>
         </div>
     )
 }

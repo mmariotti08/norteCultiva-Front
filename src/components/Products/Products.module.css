@@ -4,45 +4,57 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
-.jardineria {
-    border: 2px solid rgba(223, 112, 0, 0.091);
-    height: calc(100vh - 20vh);
-    width: 95%;
-    margin-top: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.destacados {
+    width: 80%;
+    height:4rem;
+    margin-top: 10vh;
+    margin-left: 2%;
+    padding-left: 4%;
 }
 
-.parafernalia {
-    border: 2px solid rgba(223, 112, 0, 0.091);;
-    height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Link {
+    text-decoration: none;
+    color: aliceblue;
 }
 
-.semillas {
-    border: 2px solid rgba(223, 112, 0, 0.091);;
-    height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
+.vermas {
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    padding-right: 5vw;
+    
 }
 
-.materiaPrima {
-    border: 2px solid rgba(223, 112, 0, 0.091);;
-    height: 75vh;
-    width: 95%;
-    margin-top: 20vh;
+.vermas h2 {
+    transition: 0.2s;
+}
+
+.vermas h2:hover {
+    transition: 0.2s;
+    color: rgb(223, 110, 0);
+    transform: translateX(6px);
+}
+
+.vermasBottom {
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    padding-right: 5vw;
+    margin-bottom: 10vh;
 }
+
+.vermasBottom h2 {
+    transition: 0.2s;
+}
+
+.vermasBottom h2:hover {
+    transition: 0.2s;
+    color: rgb(223, 110, 0);
+    transform: translateX(6px);
+}
+

@@ -1,12 +1,8 @@
-.container {
-    height: 100%;
-}
-
-.div {
-    width: 98.9vw;
+.Parafernalia {
     height: 100vh;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: aliceblue;
 }

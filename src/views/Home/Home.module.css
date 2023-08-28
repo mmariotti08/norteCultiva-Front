@@ -5,8 +5,8 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.76);
 }
+
 
 .Bienvenida,
 .Tienda,
@@ -14,14 +14,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     width: 89%;
     scroll-snap-align: center;
+    z-index: 11;
 }
 
 .Bienvenida {
     align-items: center;
     color: rgb(221, 110, 0);
+    padding-top: 15vh;
 }
 
 .Bienvenida h1 {
@@ -54,6 +56,7 @@
     align-items: flex-end;
     padding-right: 10vw;
     color: white;
+    padding-bottom: 10vh;
 }
 
 .Asesoramiento h4 {
@@ -74,6 +77,11 @@
     color: rgb(0, 0, 0);
     
 }
+
+.Boton:hover {
+    cursor: pointer;
+}
+
 .Boton svg{
     width: 40px;
 }
