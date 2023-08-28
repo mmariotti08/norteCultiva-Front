@@ -1,8 +1,47 @@
 .Jardineria {
     height: 100vh;
     width: 80%;
+    margin-top: 30vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: aliceblue;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form input {
+    height: 5vh;
+    width: 28vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    border: none;
+}
+
+.form button {
+    height: 5.25vh;
+    width: 5vw;
+    margin-left: 4px;
+    background-color: rgb(223, 110, 0);
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.products {
+    border: 2px solid rgba(0, 0, 0, 0.42);
+    height: 100%;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
 }
