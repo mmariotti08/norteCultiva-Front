@@ -1,7 +1,10 @@
-import React from 'react'
-import style from "./Jardineria.module.css"
+import React from 'react';
+import style from "./FeaturedJardineria.module.css";
+import { useSelector } from 'react-redux';
 
-const Jardineria = () => {
+const FeaturedJardineria = () => {
+  const products = useSelector(state => state.products)
+  console.log(products);
   return (
     <div className={style.jardineria}>
       <div className={style.producto1}> Producto 1 </div>
@@ -14,4 +17,4 @@ const Jardineria = () => {
   )
 }
 
-export default Jardineria
+export default FeaturedJardineria;

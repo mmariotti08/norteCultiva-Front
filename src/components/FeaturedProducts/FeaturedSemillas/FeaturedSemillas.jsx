@@ -1,7 +1,7 @@
 import React from 'react';
-import style from "./Semillas.module.css"
+import style from "./FeaturedSemillas.module.css"
 
-const Semillas = () => {
+const FeaturedSemillas = () => {
   return (
     <div className={style.semillas}>
       <div className={style.producto}> Semilla 1 </div>
@@ -14,4 +14,4 @@ const Semillas = () => {
   )
 }
 
-export default Semillas
+export default FeaturedSemillas
