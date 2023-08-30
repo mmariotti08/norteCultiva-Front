@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 
 const Jardineria = () => {
   const JardineriaProducts = useSelector(state => state.products)
-  console.log(JardineriaProducts);
 
   useEffect(() => {
     window.scroll(0,0);
@@ -17,9 +16,6 @@ const Jardineria = () => {
           <button> Lupa </button>
       </form>
       <div className={style.products}>
-        <h1>Jardineria</h1>
-      </div>
-      <div>
         {JardineriaProducts.map(jarProd => <div>{jarProd.name}</div>)}
       </div>
     </div>

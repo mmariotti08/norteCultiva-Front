@@ -3,6 +3,10 @@ import {
 } from "./actionsType";
 
 const initialState = {
+    Jardineria: [],
+    Parafernalia: [],
+    Semillas: [],
+    MateriPrima: [],
     products: [],
     users: []
 };
@@ -11,8 +15,8 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch(action.type){
         case GET_PRODUCTS:
-            const newState = {...state, products: action.payload}
-            return newState;
+            return {...state, products: action.payload };
+            
             
         default:
             return {...state};

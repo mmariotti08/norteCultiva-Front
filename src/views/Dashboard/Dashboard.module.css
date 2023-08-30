@@ -1,0 +1,19 @@
+.container {
+    height: 100%;
+    width: 95vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    margin-top: 25vh;
+} 
+
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.usuarios {
+    display: flex;
+    flex-direction: column;
+}
