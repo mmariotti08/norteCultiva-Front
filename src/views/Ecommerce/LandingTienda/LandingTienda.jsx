@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./LandingTienda.module.css"
 import { useEffect } from "react";
-import { BotonesNav, Products, CarrouselTienda } from "../../../components/indexComponents";
+import { BotonesNav, FeaturedProducts, CarrouselTienda } from "../../../components/indexComponents";
 
 const LandingTienda = () => {
 
@@ -13,7 +13,7 @@ const LandingTienda = () => {
         <div className={style.LTsombra}>
             <CarrouselTienda/>
             <BotonesNav/>
-            <Products/>    
+            <FeaturedProducts/>    
         </div>
     )
 }

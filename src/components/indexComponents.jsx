@@ -2,9 +2,9 @@ import Nav from "./NavBar/Nav/NavBar";
 import LeftNav from "./NavBar/LeftNav/LeftNav"
 import RightNav from "./NavBar/RightNav/RightNav"
 import BotonesNav from "./BotonesNav/BotonesNav";
-import Products from "./Products/Products";
+import FeaturedProducts from "./FeaturedProducts/FeaturedProducts";
 import CarrouselTienda from "./CarrouselTienda/CarrouselTienda";
-import LogIn from "./Log/LogIn";
+//import LogIn from "./Log/LogIn";
 import Footer from "./Footer/Footer";
 
 export {
@@ -12,8 +12,8 @@ export {
     LeftNav,
     RightNav,
     BotonesNav,
-    Products,
+    FeaturedProducts,
     CarrouselTienda,
-    LogIn,
+//  LogIn,
     Footer
 }
