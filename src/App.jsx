@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import { Home, LandingTienda, PreguntasFrecuentes, ChatGPT, SelectArea, Contact, AboutUs, Jardineria, Parafernalia, MateriaPrima, Semillas} from "./views/indexViews"
-import { Nav, LeftNav, RightNav, Footer ,LogIn} from './components/indexComponents';
+import { Nav, LeftNav, RightNav, Footer ,/*LogIn*/} from './components/indexComponents';
 import './App.css'
 import { useState } from 'react';
 
@@ -36,7 +36,7 @@ function App() {
         <Route path='/Parafernalia' element={<Parafernalia/>}/>
         <Route path='/MateriaPrima' element={<MateriaPrima/>}/>
         <Route path='/Semillas' element={<Semillas/>}/>
-        <Route path='/login' element={<LogIn isOpen={isModalOpen} onClose={handleModalClose} />}/>
+        {/*<Route path='/login' element={<LogIn isOpen={isModalOpen} onClose={handleModalClose} />}/>*/}
       </Routes>
       <Footer/>
    </div>

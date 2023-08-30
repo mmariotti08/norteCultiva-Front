@@ -1,28 +1,16 @@
 import { Link } from "react-router-dom";
 import style from "./Home.module.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getProduct } from "../../redux/actions";
 
 const Home = () => {
-    const [ botonVisible, setBotonVisible ] = useState(false)
-
+    const dispatch = useDispatch();
 
     useEffect(() => {
-
+        dispatch(getProduct())
         window.scrollTo(0, 0)
-
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setBotonVisible(false);
-            } else {
-                setBotonVisible(true);
-            }
-       };
-
-       window.addEventListener("scroll", handleScroll);
-       return () => {
-        window.removeEventListener("scroll", handleScroll);
-       };
-    }, []);
+    }, [dispatch]);
 
     
     return (
