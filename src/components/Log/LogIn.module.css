@@ -107,6 +107,31 @@
     align-items: center;
     width: 100%;
 }
+
+.formSignin button{
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+    font-size: 20px;
+}
+.formSignin  input{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+}
+.formSignin input::placeholder{
+    color: aliceblue;
+}
 .formSignup{
     display: flex;
     flex-direction: column;
@@ -150,6 +175,56 @@
 .inpTyC input{
     height: 15px;
     width: 15px;
+}
+
+.Is2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+.Is1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bis2{
+    background: none;
+    border: none;
+    border-bottom: 1px solid  rgba(159, 160, 161, 0.843);
+    color: rgba(159, 160, 161, 0.843);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.br2{
+    background: none;
+    border: none;
+    border-bottom: 1px solid  aliceblue;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.bis1{
+    background: none;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color:aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.br1{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(159, 160, 161, 0.843);
+    color: rgba(159, 160, 161, 0.843);
+    margin: 10px;
+    font-size: 20px;
 }
 
 

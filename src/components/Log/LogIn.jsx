@@ -76,15 +76,15 @@ const LogIn = ({isOpen, onClose, }) => {
                     <div className={style.cont}>
                         {!change ? ( 
                             <div className={style.log}>
-                                <div className={style.Is}>
-                                    <button onClick={handleFalse}>Iniciar Sesion</button>
-                                    <button onClick={handleTrue}>Registrarse</button>
+                                <div className={style.Is1}>
+                                    <button  className={style.bis1} onClick={handleFalse}>Iniciar Sesion</button>
+                                    <button className={style.br1} onClick={handleTrue}>Registrarse</button>
                                 </div>
                                     <form className={style.formSignin}>
                                         <h3>Bienvenido de Nuevo!</h3>
                                         <input type='email'placeholder='Email'required/>
                                         <input type='password'placeholder='Contraseña'required/>
-                                        <div>
+                                        <div className={style.inpTyC}>
                                         <input  type='checkbox'/><span>Recordar contraseña</span>
                                         </div>
                                         <button>Iniciar Sesion</button>
@@ -99,9 +99,9 @@ const LogIn = ({isOpen, onClose, }) => {
                             </div>
                         ) : (
                             <div className={style.log}>
-                                <div className={style.Is}>
-                                    <button onClick={handleFalse}>Iniciar Sesion</button>
-                                    <button onClick={handleTrue}>Registrarse</button>
+                                <div className={style.Is2}>
+                                    <button className={style.bis2} onClick={handleFalse}>Iniciar Sesion</button>
+                                    <button className={style.br2} onClick={handleTrue}>Registrarse</button>
                                 </div>
                                     <form className={style.formSignup}>
                                         <h3>Bienvenido!</h3>
