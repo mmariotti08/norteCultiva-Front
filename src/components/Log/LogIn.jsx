@@ -80,11 +80,15 @@ const LogIn = ({isOpen, onClose, }) => {
                                     <button onClick={handleFalse}>Iniciar Sesion</button>
                                     <button onClick={handleTrue}>Registrarse</button>
                                 </div>
-                                    <form className={style.formSingin}>
-                                        <h3>Bienvenido de Nuevo</h3>
+                                    <form className={style.formSignin}>
+                                        <h3>Bienvenido de Nuevo!</h3>
                                         <input type='email'placeholder='Email'required/>
                                         <input type='password'placeholder='Contraseña'required/>
+                                        <div>
+                                        <input  type='checkbox'/><span>Recordar contraseña</span>
+                                        </div>
                                         <button>Iniciar Sesion</button>
+                                        
                                     </form>
                                 <GoogleLogin
                                     clientId={clientID}
@@ -99,7 +103,17 @@ const LogIn = ({isOpen, onClose, }) => {
                                     <button onClick={handleFalse}>Iniciar Sesion</button>
                                     <button onClick={handleTrue}>Registrarse</button>
                                 </div>
-                                    <h1>chau</h1>
+                                    <form className={style.formSignup}>
+                                        <h3>Bienvenido!</h3>
+                                        <input type='text'placeholder='Nombre y apellido'required/>
+                                        <input type='email'placeholder='Email'required/>
+                                        <input type='password'placeholder='Contraseña'required/>
+                                        <input type='password'placeholder='Repetir Contraseña'required/>
+                                        <div className={style.inpTyC}>
+                                        <input  type='checkbox'/><span>Acepto los Terminos y Condiciones</span>
+                                        </div>
+                                        <button>Registrarse</button>
+                                    </form>
                                 <GoogleLogin
                                     clientId={clientID}
                                     onSuccess={onSuccess}
