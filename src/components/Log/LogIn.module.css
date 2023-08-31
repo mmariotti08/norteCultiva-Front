@@ -39,6 +39,7 @@
     margin-top: 100px;
     margin-right: 100px;
     background-color: rgba(184, 184, 184, 0.434);
+    
 }
 
 .log{
@@ -51,16 +52,8 @@
     height: 100%;
     color: aliceblue;
 }
-.Is{
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid aliceblue;
-    width: 80%;
-}
-.log button{
-  margin-bottom: 300px;
-  
-}
+
+
 
 
 .welcome{
@@ -107,3 +100,56 @@
     border: 0;
     padding: 0;
 }
+
+.formSignin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.formSignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+.formSignup button{
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+    font-size: 20px;
+}
+.formSignup input{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+}
+.formSignup input::placeholder{
+    color: aliceblue;
+}
+.inpTyC{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 80px;
+}
+.inpTyC input{
+    height: 15px;
+    width: 15px;
+}
+
+
