@@ -9,6 +9,7 @@ import Jardineria from "./Ecommerce/Jardineria/Jardineria";
 import Parafernalia from "./Ecommerce/Parafernalia/Parafernalia";
 import MateriaPrima from "./Ecommerce/MateriaPrima/MateriaPrima";
 import Semillas from "./Ecommerce/Semillas/Semillas";
+import Dashboard from "./Dashboard/Dashboard";
 
 export {
     Home,
@@ -21,5 +22,6 @@ export {
     Jardineria,
     Parafernalia,
     MateriaPrima,
-    Semillas
+    Semillas,
+    Dashboard
 }

@@ -1,0 +1,230 @@
+.bg{ 
+    width: 100%;
+    height: 100vh;
+}
+
+.curtain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.bienv{
+    color: aliceblue;
+    margin-left: 200px;
+    margin-bottom: 250px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bienv h3{
+   
+    font-size: 60px;
+}
+.elnort{
+    color: rgb(255, 110, 0);
+}
+.elnort img{
+    width: 100px;
+    height: 120px;
+    
+}
+.cont{
+    display: flex;
+     
+    width: 500px;
+    height: 600px;
+    margin-top: 100px;
+    margin-right: 100px;
+    background-color: rgba(184, 184, 184, 0.434);
+    
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+    
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+
+
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+    height:100%;
+} 
+
+.welcome h2{
+ 
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+ font-size: 30px;
+ margin-top: -20px;
+ margin-bottom: -80px;
+}
+
+.welcome  img{
+    border: 4px solid rgb(255, 110, 0);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: -50px;
+}
+
+.welcome h3{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.welcome button{
+    background-color: rgb(255, 110, 0);
+    color: black;
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 6px 6px 10px black;
+    border: 0;
+    padding: 0;
+}
+
+.formSignin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.formSignin button{
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+    font-size: 20px;
+}
+.formSignin  input{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+}
+.formSignin input::placeholder{
+    color: aliceblue;
+}
+.formSignup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+.formSignup button{
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: aliceblue;
+    font-size: 20px;
+}
+.formSignup input{
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+}
+.formSignup input::placeholder{
+    color: aliceblue;
+}
+.inpTyC{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 80px;
+}
+.inpTyC input{
+    height: 15px;
+    width: 15px;
+}
+
+.Is2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+.Is1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bis2{
+    background: none;
+    border: none;
+    border-bottom: 1px solid  rgba(159, 160, 161, 0.843);
+    color: rgba(159, 160, 161, 0.843);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.br2{
+    background: none;
+    border: none;
+    border-bottom: 1px solid  aliceblue;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.bis1{
+    background: none;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color:aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.br1{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(159, 160, 161, 0.843);
+    color: rgba(159, 160, 161, 0.843);
+    margin: 10px;
+    font-size: 20px;
+}
+
+

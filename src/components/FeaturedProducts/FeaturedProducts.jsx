@@ -1,18 +1,18 @@
 import React from "react";
-import style from "./Products.module.css"
-import Jardineria from "./Jardineria/Jardineria"
-import Parafernalia from "./Parafernalia/Parafernalia"
-import Semillas from "./Semillas/Semillas"
-import MateriaPrima from "./MateriaPrima/MateriaPrima"
+import style from "./FeaturedProducts.module.css";
+import FeaturedJardineria from "./FeaturedJardineria/FeaturedJardineria";
+import FeaturedParafernalia from "./FeaturedParafernalia/FeaturedParafernalia";
+import FeaturedSemillas from "./FeaturedSemillas/FeaturedSemillas";
+import FeaturedMateriaPrima from "./FeaturedMateriaPrima/FeaturedMateriaPrima";
 import { Link } from "react-router-dom";
 
-const Products = () => {
+const FeaturedProducts = () => {
     return (
         <div className={style.Productos}>
             <div className={style.destacados}>
                 <h1> Destacados </h1>  
             </div>
-            <Jardineria/>
+            <FeaturedJardineria/>
             <div className={style.vermas}>
                 <Link to="/Jardineria" className={style.Link}>
                     <h2> Ver más </h2>
@@ -21,7 +21,7 @@ const Products = () => {
             <div className={style.destacados}>
                 <h1> Destacados </h1>
             </div>
-            <Parafernalia/>
+            <FeaturedParafernalia/>
             <div className={style.vermas}>
                 <Link to="/Parafernalia" className={style.Link}>
                     <h2> Ver más </h2>
@@ -30,7 +30,7 @@ const Products = () => {
             <div className={style.destacados}>
                 <h1> Destacados </h1>
             </div>
-            <Semillas/>
+            <FeaturedSemillas/>
             <div className={style.vermas}>
                 <Link to="/Semillas" className={style.Link}>
                     <h2> Ver más </h2>
@@ -39,15 +39,14 @@ const Products = () => {
             <div className={style.destacados}>
                 <h1> Destacados </h1>
             </div>
-            <MateriaPrima/>
+            <FeaturedMateriaPrima/>
             <div className={style.vermasBottom}>
                 <Link to="/MateriaPrima" className={style.Link}>
                     <h2> Ver más </h2>
                 </Link>
             </div>
-            
         </div>
     )
 }
 
-export default Products;
+export default FeaturedProducts;

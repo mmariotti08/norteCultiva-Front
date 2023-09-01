@@ -10,14 +10,15 @@
 }
  
 .Boton {
-    height: 8vh;
-    width: 12vw;
+    height: 13vh;
+    width: 19vw;
     background-color: rgb(221, 111, 0);
     font-weight: 350;
     border: none;
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
     transition: .5s;
+    border-radius: 25px;
 }
 
 .Boton:hover {

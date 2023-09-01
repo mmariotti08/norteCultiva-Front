@@ -18,6 +18,14 @@
     margin-top: 7rem;
 }
 
+.redesNav:hover {
+    cursor: pointer;
+}
+
+.redesNav a {
+    color: aliceblue;
+}
+
 
 .leftNavVisible {
     transform: translateX(0);

@@ -1,7 +1,7 @@
-import React from 'react'
-import style from "./MateriaPrima.module.css"
+import React from 'react';
+import style from "./FeaturedMateriaPrima.module.css";
 
-const MateriaPrima = () => {
+const FeaturedMateriaPrima = () => {
   return (
     <div className={style.materiaPrima}>
       <div className={style.producto1}> Materia Prima 1 </div>
@@ -12,4 +12,4 @@ const MateriaPrima = () => {
   )
 }
 
-export default MateriaPrima
+export default FeaturedMateriaPrima;

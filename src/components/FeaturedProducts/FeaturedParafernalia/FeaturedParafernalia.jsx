@@ -1,7 +1,7 @@
-import React from 'react'
-import style from "./Parafernalia.module.css"
+import React from 'react';
+import style from "./FeaturedParafernalia.module.css";
 
-const Parafernalia = () => {
+const FeaturedParafernalia = () => {
   return (
     <div className={style.parafernalia}>
       <div className={style.producto1}> Parafernalia 1 </div>
@@ -14,4 +14,4 @@ const Parafernalia = () => {
   )
 }
 
-export default Parafernalia
+export default FeaturedParafernalia;
